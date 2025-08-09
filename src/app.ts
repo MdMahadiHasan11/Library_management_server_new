@@ -9,10 +9,7 @@ const app: Application = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://library-management-minimal-web.vercel.app",
-    ],
+    origin: ["http://localhost:5173"],
   })
 );
 
